@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "rag-streamlit"
+version = "0.1.0"
+description = ""
+authors = ["Alper Balbay <itsc0508@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.5"
+langchain = "^0.2.1"
+langchain-community = "^0.2.1"
+langchainhub = "^0.1.17"
+langchain-chroma = "^0.1.1"
+bs4 = "^0.0.2"
+langchain-openai = "^0.1.8"
+langchain-google-vertexai = "^1.0.4"
+streamlit = "^1.35.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.4.6"
+pytest = "^8.2.1"
+isort = "^5.13.2"
+jupyter = "^1.0.0"
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
