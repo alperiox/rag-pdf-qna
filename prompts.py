@@ -1,5 +1,4 @@
-from langchain_core.prompts import ChatPromptTemplate
-from langchain_core.prompts import MessagesPlaceholder
+from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 
 system_prompt = (
     "You are an assistant for question-answering tasks. "
